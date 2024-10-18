@@ -39,8 +39,9 @@ fun Biodataku(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.img_1),
             contentDescription = "",
             modifier = Modifier.clip(CircleShape).size(200.dp)
-            
+
         )
+        Spacer(modifier = Modifier.padding(5.dp))
 
 
     }
