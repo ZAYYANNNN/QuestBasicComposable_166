@@ -42,6 +42,7 @@ fun Biodataku(modifier: Modifier = Modifier) {
 
         )
         Spacer(modifier = Modifier.padding(5.dp))
+        Text("Nama", fontSize = 30.sp)
 
 
     }
