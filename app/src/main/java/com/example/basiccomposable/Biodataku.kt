@@ -32,6 +32,8 @@ fun Biodataku(modifier: Modifier = Modifier) {
     )
     {
         Text("Login", fontSize = 50.sp, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.padding(5.dp))
+
     }
 
 }
