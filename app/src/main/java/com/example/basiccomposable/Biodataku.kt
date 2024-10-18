@@ -35,6 +35,11 @@ fun Biodataku(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.padding(5.dp))
         Text("Ini adalah halaman login", fontSize = 30.sp)
         Spacer(modifier = Modifier.padding(5.dp))
+        Image(
+            painter = painterResource(id = R.drawable.img_1),
+            contentDescription = "",
+            modifier = Modifier.clip(CircleShape).size(200.dp)
+        )
 
 
     }
