@@ -47,7 +47,7 @@ fun Biodataku(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.padding(5.dp))
         Text("Muhammad Zayyan I'zaaz", fontSize = 25.sp)
         Spacer(modifier = Modifier.padding(5.dp))
-        Text("20220140166", fontSize = 30.sp, color = Color.DarkGray)
+        Text("20220140166", fontSize = 35.sp, color = Color.DarkGray)
 
         Image(
             painter = painterResource(id = R.drawable.saya),
