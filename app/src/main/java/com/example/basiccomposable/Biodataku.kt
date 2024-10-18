@@ -52,7 +52,7 @@ fun Biodataku(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.saya),
             contentDescription = "",
-            modifier = Modifier.clip(RectangleShape).size(400.dp)
+            modifier = Modifier.clip(CircleShape).size(400.dp)
 
         )
 
