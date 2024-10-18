@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -47,6 +48,13 @@ fun Biodataku(modifier: Modifier = Modifier) {
         Text("Muhammad Zayyan I'zaaz", fontSize = 25.sp)
         Spacer(modifier = Modifier.padding(5.dp))
         Text("20220140166", fontSize = 30.sp, color = Color.DarkGray)
+
+        Image(
+            painter = painterResource(id = R.drawable.saya),
+            contentDescription = "",
+            modifier = Modifier.clip(RectangleShape).size(400.dp)
+
+        )
 
 
     }
